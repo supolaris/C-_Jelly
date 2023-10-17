@@ -1,0 +1,7 @@
+C:\work\coding\C#\C#_Jelly\bin\Debug\C#_Jelly.exe.config
+C:\work\coding\C#\C#_Jelly\bin\Debug\C#_Jelly.exe
+C:\work\coding\C#\C#_Jelly\bin\Debug\C#_Jelly.pdb
+C:\work\coding\C#\C#_Jelly\obj\Debug\C#_Jelly.csproj.AssemblyReference.cache
+C:\work\coding\C#\C#_Jelly\obj\Debug\C#_Jelly.csproj.CoreCompileInputs.cache
+C:\work\coding\C#\C#_Jelly\obj\Debug\C#_Jelly.exe
+C:\work\coding\C#\C#_Jelly\obj\Debug\C#_Jelly.pdb
