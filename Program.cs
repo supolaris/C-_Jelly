@@ -10,7 +10,17 @@ namespace C__Jelly
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            Console.WriteLine("Accessing String");
+
+            string myWord = "HelloWorld";
+            Console.WriteLine(myWord.Length);
+
+            int indexWord = myWord.IndexOf("r");
+
+            string updatedWord = myWord.Substring(indexWord);
+            Console.WriteLine("The updated word is: " + updatedWord);
+            Console.ReadKey();
+
         }
     }
 }
