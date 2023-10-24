@@ -10,7 +10,11 @@ namespace C__Jelly
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            Console.WriteLine("String Interpolation");
+            string firstWord = "hello";
+            string secondWord = "World";
+            string interpolationWord = $"The combine words is {firstWord} {secondWord}";
+            Console.WriteLine(interpolationWord);
         }
     }
 }
