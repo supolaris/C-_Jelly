@@ -14,19 +14,36 @@ namespace C__Jelly
         {
             Console.WriteLine("Billing Program using switches");
 
-            Console.WriteLine("Enter Your name");
-            string myName = Console.ReadLine();
+            Console.WriteLine("Enter Your First Name");
+            string myFirstName = Console.ReadLine();
+            Console.WriteLine("Enter Your Last Name");
+            string myLastName = Console.ReadLine();
+            Console.WriteLine("Enter Your Street Address");
+            string myStreetAddress = Console.ReadLine();
             Console.WriteLine("Enter your bill amount");
             int myBill = Convert.ToInt32(Console.ReadLine());
-            int myMaxValue = 1000;
-            int myMinValue = 10000;
+            int myMaxBill = 1000;
+            int myMinBill = 10000;
 
-            if (myBill >= myMaxValue)
+            if (myBill >= myMaxBill)
             {
                 Console.WriteLine("Message here");
-                myBill += 200*1000/myBill;
-                Console.WriteLine(myBill);
+                myBill += 500;
+
             }
+            else if(myBill < myMaxBill) {
+                myBill += 50;
+            }
+            else if(myBill == myMinBill) {
+                myBill += 250;
+            }
+
+            Console.WriteLine("Your Electricity Bill");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("First Name: " + myFirstName);
+            Console.WriteLine("Last Name: " + myLastName);
+            Console.WriteLine("Your Bill is " + myBill);
+
         }
     }
 }
